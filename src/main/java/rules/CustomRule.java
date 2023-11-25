@@ -14,5 +14,4 @@ public class CustomRule implements TestRule {
 		this.description = description;
 		return new CustomStatement(base, description);
 	}
-
 }
